@@ -166,7 +166,8 @@ namespace BusinessLogic.Identity.Migrations
                     Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Departamento = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CodigoPostal = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    UsuarioId = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                    UsuarioId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    Pais = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

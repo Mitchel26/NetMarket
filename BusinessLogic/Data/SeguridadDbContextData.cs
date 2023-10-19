@@ -25,7 +25,8 @@ namespace BusinessLogic.Data
                         Calle = "28 Julio",
                         Ciudad = "Laredo",
                         CodigoPostal = "123",
-                        Departamento = "La Libertad"
+                        Departamento = "La Libertad",
+                        Pais = "Perú"
                     }
                 };
 
